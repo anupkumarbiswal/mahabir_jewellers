@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahabir Jewellers | Kishorenagar, Angul | BIS Hallmarked Gold & Silver Jewellery</title>
+  <meta name="description" content="Mahabir Jewellers, Kishorenagar, Angul (Odisha). Exclusive BIS 916 Hallmarked Gold, Diamond, and 925 Pure Silver Jewellery. Call/WhatsApp: 9938625057." />
+
+  <!-- Google Fonts: Playfair Display & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- =========================================================================
+       TOP ANNOUNCEMENT BAR & BULLION RATES TICKER
+       ========================================================================= -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="bullion-ticker">
+        <span class="ticker-label"><i class="fas fa-chart-line"></i> Today's Live Rates:</span>
+        <span class="rate-item">24K Gold: <strong>₹15,430/g</strong></span>
+        <span class="rate-item">22K Gold (916): <strong>₹14,144/g</strong></span>
+        <span class="rate-item">18K Gold: <strong>₹11,572/g</strong></span>
+        <span class="rate-item">Silver (999): <strong>₹254.90/g</strong></span>
+      </div>
+      <div class="top-bar-contact">
+        <span class="top-contact-link"><i class="fas fa-map-marker-alt"></i> Kishorenagar, Angul, Odisha</span>
+        <a href="tel:9938625057" class="top-contact-link"><i class="fas fa-phone-alt"></i> +91 9938625057</a>
+        <span class="top-contact-link"><i class="fas fa-clock"></i> 9:30 AM - 8:30 PM</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MAIN NAVIGATION HEADER
+       ========================================================================= -->
+  <header class="main-header">
+    <div class="container navbar">
+      <!-- Store Brand Logo -->
+      <a href="#" class="brand-logo">
+        <div class="brand-title">Mahabir Jewellers</div>
+        <div class="brand-subtitle">
+          <span>BIS 916 Hallmarked</span>
+          <span>•</span>
+          <span class="location-badge"><i class="fas fa-map-marker-alt"></i> Kishorenagar, Angul</span>
+        </div>
+      </a>
+
+      <!-- Realtime Search -->
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search necklaces, kadas, bridal sets, rings..." />
+        <i class="fas fa-search search-icon"></i>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Direct WhatsApp Quick Chat -->
+        <a href="https://wa.me/919938625057?text=Namaste%20Mahabir%20Jewellers,%20I%20am%20visiting%20your%20website%20and%20have%20an%20inquiry." target="_blank" class="whatsapp-cta-btn">
+          <i class="fab fa-whatsapp" style="font-size: 1.1rem;"></i> WhatsApp Us
+        </a>
+
+        <!-- Wishlist Button -->
+        <button id="openWishlistBtn" class="action-btn" title="View Wishlist">
+          <i class="far fa-heart"></i>
+          <span class="badge-count" id="wishlistCount">0</span>
+        </button>
+
+        <!-- Cart Button -->
+        <button id="openCartBtn" class="action-btn" title="View Shopping Bag">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="badge-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Secondary Category / Fast Navigation Bar -->
+    <nav class="sub-nav">
+      <div class="container">
+        <ul class="sub-nav-list">
+          <li><a href="#collections" class="sub-nav-link active"><i class="fas fa-crown"></i> Bridal Collection</a></li>
+          <li><a href="#collections" class="sub-nav-link"><i class="fas fa-gem"></i> Gold Jewellery</a></li>
+          <li><a href="#collections" class="sub-nav-link"><i class="fas fa-circle-notch"></i> Filigree Kadas</a></li>
+          <li><a href="#collections" class="sub-nav-link"><i class="fas fa-coins"></i> Pure Silver Pooja</a></li>
+          <li><a href="#calculator" class="sub-nav-link"><i class="fas fa-calculator"></i> Gold Rate Calculator</a></li>
+          <li><a href="#" id="bookApptNavBtn" class="sub-nav-link"><i class="fas fa-calendar-check"></i> Book Store Visit</a></li>
+          <li><a href="#storeLocation" class="sub-nav-link"><i class="fas fa-store"></i> Kishorenagar Showroom</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- =========================================================================
+       HERO SECTION
+       ========================================================================= -->
+  <section class="hero-section">
+    <div class="hero-glow"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-tag"><i class="fas fa-award"></i> The Crown of Kishorenagar, Angul</span>
+        <h1 class="hero-title">
+          Timeless Elegance &amp;
+          <span>Pure 916 Gold Craft</span>
+        </h1>
+        <p class="hero-desc">
+          Celebrate your most cherished milestones with handcrafted bridal jewellery, regal temple necklaces, and traditional Odia filigree kadas. 100% certified with BIS hallmark &amp; transparent computerized billing.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#collections" class="btn-primary-gold">
+            <i class="fas fa-sparkles"></i> Explore Collections
+          </a>
+          <button id="bookApptHeroBtn" class="btn-outline-gold">
+            <i class="fas fa-calendar-alt"></i> Book In-Store Consultation
+          </button>
+        </div>
+
+        <div class="hero-features">
+          <div class="hero-feature-item">
+            <i class="fas fa-check-circle"></i>
+            <span>100% BIS Hallmarked</span>
+          </div>
+          <div class="hero-feature-item">
+            <i class="fas fa-shield-alt"></i>
+            <span>HUID Certified Gold</span>
+          </div>
+          <div class="hero-feature-item">
+            <i class="fas fa-hand-holding-usd"></i>
+            <span>Fair &amp; Lowest Making Charges</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       LIVE GOLD & SILVER RATE CALCULATOR
+       ========================================================================= -->
+  <section class="calculator-section" id="calculator">
+    <div class="container">
+      <div class="calc-card">
+        <div class="calc-header">
+          <h2 class="calc-title"><i class="fas fa-calculator" style="color: var(--gold-primary);"></i> Live Gold Price Calculator</h2>
+          <p class="calc-subtitle">Estimate exact jewellery cost based on today's live rate in Kishorenagar, Angul with transparent breakdown.</p>
+        </div>
+
+        <div class="calc-grid">
+          <!-- Inputs Column -->
+          <div class="calc-inputs-col">
+            <div class="calc-form-group">
+              <label><i class="fas fa-medal"></i> Select Karat / Purity</label>
+              <div class="karat-selector">
+                <button type="button" class="karat-btn" data-karat="24">24K (999 Purity)</button>
+                <button type="button" class="karat-btn active" data-karat="22">22K (916 Hallmark)</button>
+                <button type="button" class="karat-btn" data-karat="18">18K (Diamond Jewellery)</button>
+              </div>
+            </div>
+
+            <div class="calc-form-group">
+              <label for="calcWeight"><i class="fas fa-weight-hanging"></i> Enter Weight in Grams</label>
+              <div class="calc-input-wrapper">
+                <input type="number" id="calcWeight" class="calc-input" value="10" min="0.1" step="0.1" />
+                <span class="calc-unit">Grams</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price Display Column -->
+          <div class="calc-result-box">
+            <span class="result-heading">Estimated Total Price (Incl. Making &amp; 3% GST)</span>
+            <div class="result-total-price" id="calcTotalPrice">₹15,430</div>
+            <div class="result-breakdown">
+              <div>Base Gold: <strong id="calcGoldValue">₹15,430</strong></div>
+              <div>Est. Making (10%): <strong id="calcMakingEstimate">₹6,740</strong></div>
+              <div>GST: <strong>3%</strong></div>
+            </div>
+            <a href="https://wa.me/919938625057?text=Namaste%20Mahabir%20Jewellers,%20I%20calculated%20a%20gold%20rate%20on%20your%20website%20and%20would%20like%20to%20place%20an%20order%20or%20inquire." target="_blank" class="whatsapp-cta-btn" style="width: 100%; justify-content: center;">
+              <i class="fab fa-whatsapp"></i> Inquire Live Rate with Showroom
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       COLLECTIONS & PRODUCTS CATALOG
+       ========================================================================= -->
+  <section class="catalog-section" id="collections">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Handcrafted Masterpieces</span>
+        <h2 class="section-title">Our Exclusive Collections</h2>
+        <p class="section-desc">Explore bridal sets, royal necklaces, bangles, diamond rings, and pure silver articles available at Mahabir Jewellers showroom in Kishorenagar.</p>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="category-pills" id="categoryPills">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       TRUST PILLARS / ASSURANCE
+       ========================================================================= -->
+  <section class="trust-section">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fas fa-stamp"></i></div>
+          <div class="trust-text">
+            <h4>100% BIS Hallmarked</h4>
+            <p>Every piece of gold is hallmarked with official 6-digit HUID code for guaranteed purity.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fas fa-balance-scale"></i></div>
+          <div class="trust-text">
+            <h4>100% Transparent Billing</h4>
+            <p>Computerised weigh-in with clear itemisation of gold weight, making charge, and GST.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fas fa-truck-moving"></i></div>
+          <div class="trust-text">
+            <h4>Insured Express Delivery</h4>
+            <p>100% tamper-evident insured doorstep delivery across Kishorenagar, Angul, and all Odisha.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fas fa-sync-alt"></i></div>
+          <div class="trust-text">
+            <h4>Lifetime Exchange Policy</h4>
+            <p>Exchange or upgrade your old gold jewellery anytime at prevailing live market rates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       APPOINTMENT & BRIDAL CONSULTATION SECTION
+       ========================================================================= -->
+  <section class="appointment-section">
+    <div class="container">
+      <div class="appointment-banner">
+        <div class="appointment-info">
+          <h3>Plan Your Wedding Jewellery With Our Master Craftsmen</h3>
+          <p>Book a personalised in-store bridal consultation at our Kishorenagar showroom or schedule a video call from the comfort of your home.</p>
+          <ul class="appointment-features-list">
+            <li><i class="fas fa-check-circle"></i> Private trial of exclusive bridal choker and haar sets</li>
+            <li><i class="fas fa-check-circle"></i> Custom jewellery designing tailored to your budget and weight</li>
+            <li><i class="fas fa-check-circle"></i> Live purity testing and bullion exchange consultation</li>
+          </ul>
+        </div>
+
+        <form class="appointment-form" id="appointmentForm">
+          <h4 style="font-family: var(--font-serif); font-size: 1.25rem; color: #fff; margin-bottom: 16px;">
+            Book Consultation
+          </h4>
+          <div class="form-group">
+            <label for="apptName">Your Name</label>
+            <input type="text" id="apptName" class="form-control" placeholder="e.g. Sasmita Sahoo" required />
+          </div>
+          <div class="form-group">
+            <label for="apptPhone">Mobile Number</label>
+            <input type="tel" id="apptPhone" class="form-control" placeholder="e.g. 9938625057" required />
+          </div>
+          <div class="form-group">
+            <label for="apptDate">Preferred Visit Date</label>
+            <input type="date" id="apptDate" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label for="apptType">Consultation Type</label>
+            <select id="apptType" class="form-control">
+              <option value="In-Store Visit (Kishorenagar)">In-Store Visit (Kishorenagar Showroom)</option>
+              <option value="WhatsApp Video Call Trial">WhatsApp Video Call Trial</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-primary-gold" style="width: 100%; justify-content: center; margin-top: 10px;">
+            <i class="fab fa-whatsapp"></i> Confirm on WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       STORE LOCATION & CONTACT SHOWROOM
+       ========================================================================= -->
+  <section class="store-section" id="storeLocation">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Visit Our Showroom</span>
+        <h2 class="section-title">Mahabir Jewellers Kishorenagar</h2>
+        <p class="section-desc">Experience the warmth of traditional hospitality and touch the purity of our handcrafted ornaments.</p>
+      </div>
+
+      <div class="store-grid">
+        <!-- Store Details Card -->
+        <div class="store-details-card">
+          <h3>Mahabir Jewellers</h3>
+          <p class="store-address-highlight">
+            <i class="fas fa-map-marked-alt" style="color: var(--gold-primary); margin-right: 8px;"></i>
+            Main Market Road, Kishorenagar,<br />
+            District: Angul, Odisha - 759126
+          </p>
+
+          <ul class="contact-meta-list">
+            <li class="contact-meta-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <span style="font-size: 0.78rem; color: var(--gold-light); display: block;">Primary Phone / WhatsApp:</span>
+                <a href="tel:9938625057" style="color: #fff; font-weight: 600; font-size: 1.1rem;">+91 9938625057</a>
+              </div>
+            </li>
+            <li class="contact-meta-item">
+              <i class="fab fa-whatsapp" style="color: var(--whatsapp);"></i>
+              <div>
+                <span style="font-size: 0.78rem; color: var(--gold-light); display: block;">Instant WhatsApp Ordering:</span>
+                <a href="https://wa.me/919938625057" target="_blank" style="color: #fff; font-weight: 600;">Chat with Showroom Directly</a>
+              </div>
+            </li>
+            <li class="contact-meta-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <span style="font-size: 0.78rem; color: var(--gold-light); display: block;">Showroom Timings:</span>
+                <span style="color: #fff;">Monday - Sunday: 9:30 AM to 8:30 PM</span>
+              </div>
+            </li>
+          </ul>
+
+          <div class="store-action-buttons">
+            <a href="tel:9938625057" class="btn-primary-gold">
+              <i class="fas fa-phone-volume"></i> Call Now: 9938625057
+            </a>
+            <a href="https://wa.me/919938625057?text=Namaste%20Mahabir%20Jewellers,%20I%20would%20like%20directions%20to%20your%20Kishorenagar%20store." target="_blank" class="whatsapp-cta-btn">
+              <i class="fab fa-whatsapp"></i> WhatsApp Store
+            </a>
+          </div>
+        </div>
+
+        <!-- Styled Map & Directions Mock Card -->
+        <div class="map-card-wrapper">
+          <div class="styled-map-mock">
+            <div class="map-pin-pulse">
+              <i class="fas fa-gem"></i>
+            </div>
+            <h4 style="font-family: var(--font-serif); color: #fff; font-size: 1.3rem; margin-bottom: 8px;">
+              Mahabir Jewellers Landmark
+            </h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem; max-width: 320px; margin-bottom: 20px;">
+              Located prominently on the Main Market Road of Kishorenagar, connecting Athmallik and Angul.
+            </p>
+            <a href="https://maps.google.com/?q=Kishorenagar,+Angul,+Odisha" target="_blank" class="btn-outline-gold">
+              <i class="fas fa-directions"></i> Get Driving Directions on Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CUSTOMER TESTIMONIALS
+       ========================================================================= -->
+  <section class="reviews-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Happy Families</span>
+        <h2 class="section-title">Trusted by Generations</h2>
+        <p class="section-desc">What our patrons from Kishorenagar, Angul, Athmallik, and Talcher say about Mahabir Jewellers.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Bought my daughter's wedding bridal jewellery set from Mahabir Jewellers. Exceptional purity, 100% hallmarked, and very fair making charges! The staff is extremely cordial."</p>
+          <div class="reviewer-meta">
+            <span class="reviewer-name">Sasmita Sahoo</span>
+            <span class="reviewer-loc">Kishorenagar, Angul</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"The best and most trusted jewellery showroom in our region. I bought gold coins and a chain. They gave complete computerised hallmark billing and tested purity in front of me."</p>
+          <div class="reviewer-meta">
+            <span class="reviewer-name">Rajesh Kumar Pradhan</span>
+            <span class="reviewer-loc">Athmallik, Angul</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Ordered directly through WhatsApp using their website. They delivered safely to our home with full insurance and billing. Highly recommend Mahabir Jewellers!"</p>
+          <div class="reviewer-meta">
+            <span class="reviewer-name">Priyanka Mishra</span>
+            <span class="reviewer-loc">Talcher, Angul</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--gold-light);">Mahabir Jewellers</h4>
+          <p>Kishorenagar's most revered jewellery showroom. Bringing you certified pure 22K/24K gold, diamond, and pure 925 silver creations since generations.</p>
+          <div style="color: var(--gold-light); font-size: 0.88rem;">
+            <p><i class="fas fa-map-marker-alt" style="color: var(--gold-primary);"></i> Main Road, Kishorenagar, Angul, Odisha - 759126</p>
+            <p><i class="fas fa-phone-alt" style="color: var(--gold-primary);"></i> +91 9938625057</p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Jewellery Collections</h4>
+          <ul class="footer-links">
+            <li><a href="#collections">Bridal Choker Sets</a></li>
+            <li><a href="#collections">Temple Gold Necklaces</a></li>
+            <li><a href="#collections">Handcrafted Kadas &amp; Bangles</a></li>
+            <li><a href="#collections">Solitaire Diamond Rings</a></li>
+            <li><a href="#collections">Pure Silver Pooja Utensils</a></li>
+            <li><a href="#collections">24K 999 Gold Coins</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Customer Care</h4>
+          <ul class="footer-links">
+            <li><a href="#calculator">Today's Gold Rate</a></li>
+            <li><a href="#storeLocation">Showroom Directions</a></li>
+            <li><a href="tel:9938625057">Direct Phone Support</a></li>
+            <li><a href="https://wa.me/919938625057" target="_blank">WhatsApp Assistance</a></li>
+            <li><a href="#">Purity &amp; Hallmark Policy</a></li>
+            <li><a href="#">Old Gold Exchange Rates</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>BIS 916 Hallmark Purity</h4>
+          <p>All our gold jewellery is certified by the Bureau of Indian Standards (BIS) with 6-digit HUID code engraving, ensuring 100% legal purity guarantee.</p>
+          <div style="display: flex; gap: 12px; margin-top: 14px;">
+            <div style="border: 1px solid var(--border-gold); padding: 8px 14px; border-radius: var(--radius-sm); text-align: center;">
+              <i class="fas fa-award" style="color: var(--gold-primary); font-size: 1.3rem;"></i>
+              <div style="font-size: 0.72rem; color: #fff; margin-top: 4px;">BIS 916</div>
+            </div>
+            <div style="border: 1px solid var(--border-gold); padding: 8px 14px; border-radius: var(--radius-sm); text-align: center;">
+              <i class="fas fa-gem" style="color: var(--gold-primary); font-size: 1.3rem;"></i>
+              <div style="font-size: 0.72rem; color: #fff; margin-top: 4px;">100% Certified</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Mahabir Jewellers, Kishorenagar, Angul. All rights reserved.</div>
+        <div>Contact: <strong>+91 9938625057</strong> | Odisha, India</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODAL BACKDROP & DRAWERS
+       ========================================================================= -->
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+
+  <!-- Cart Slide-Over Drawer -->
+  <aside class="side-drawer" id="cartDrawer">
+    <div class="drawer-header">
+      <h3 class="drawer-title"><i class="fas fa-shopping-bag" style="color: var(--gold-primary);"></i> Shopping Bag</h3>
+      <button class="close-drawer-btn" title="Close"><i class="fas fa-times"></i></button>
+    </div>
+
+    <div class="drawer-body" id="cartItemsList">
+      <!-- Injected by JavaScript -->
+    </div>
+
+    <div class="drawer-footer">
+      <!-- Coupon Code Box -->
+      <div style="display: flex; gap: 8px; margin-bottom: 16px;">
+        <input type="text" id="couponInput" placeholder="Enter coupon (e.g. MAHABIR10)" class="form-control" style="font-size: 0.82rem;" />
+        <button id="applyCouponBtn" class="btn-primary-gold" style="padding: 6px 14px; font-size: 0.8rem; border-radius: var(--radius-sm);">Apply</button>
+      </div>
+
+      <!-- Financial Breakdown -->
+      <div class="checkout-summary-box">
+        <div class="checkout-row">
+          <span>Subtotal:</span>
+          <span id="cartSubtotal">₹0</span>
+        </div>
+        <div class="checkout-row" style="color: #4caf50;">
+          <span>Discount:</span>
+          <span id="cartDiscount">-₹0</span>
+        </div>
+        <div class="checkout-row">
+          <span>GST (3% on Gold):</span>
+          <span id="cartGst">₹0</span>
+        </div>
+        <div class="checkout-row total">
+          <span>Grand Total:</span>
+          <span id="cartTotal" style="color: var(--gold-light);">₹0</span>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <button id="cartWhatsAppBtn" class="whatsapp-cta-btn" style="width: 100%; justify-content: center; padding: 12px;">
+          <i class="fab fa-whatsapp" style="font-size: 1.2rem;"></i> Order via WhatsApp (+91 9938625057)
+        </button>
+        <button id="proceedCheckoutBtn" class="btn-primary-gold" style="width: 100%; justify-content: center; padding: 12px;">
+          <i class="fas fa-credit-card"></i> Proceed to Online Checkout
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Wishlist Slide-Over Drawer -->
+  <aside class="side-drawer" id="wishlistDrawer">
+    <div class="drawer-header">
+      <h3 class="drawer-title"><i class="fas fa-heart" style="color: #e53935;"></i> Your Wishlist</h3>
+      <button class="close-drawer-btn" title="Close"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="drawer-body" id="wishlistItemsList">
+      <!-- Injected by JavaScript -->
+    </div>
+  </aside>
+
+  <!-- Quick View Center Modal -->
+  <div class="center-modal" id="quickViewModal">
+    <button class="modal-close-icon"><i class="fas fa-times"></i></button>
+    <div class="qv-grid">
+      <div>
+        <img id="qvImage" src="" alt="Jewellery" class="qv-image" />
+      </div>
+      <div class="qv-info">
+        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+          <span class="hallmark-tag" id="qvPurity"><i class="fas fa-certificate"></i> 22K BIS Hallmarked</span>
+          <span style="color: var(--gold-light); font-size: 0.8rem;" id="qvWeight">48.5g</span>
+        </div>
+        <h3 id="qvTitle">Jewellery Item</h3>
+        <div class="qv-pricing">
+          <span class="current-price" id="qvCurrentPrice">₹0</span>
+          <span class="original-price" id="qvOriginalPrice">₹0</span>
+        </div>
+        <p id="qvDescription" style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 16px; line-height: 1.6;"></p>
+        
+        <div style="background: var(--bg-surface); padding: 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); margin-bottom: 20px; font-size: 0.82rem;">
+          <div>Making Charge: <strong id="qvMakingCharge" style="color: var(--gold-light);">10%</strong></div>
+          <div>Certification: <strong style="color: var(--gold-light);">100% BIS 916 HUID Assured</strong></div>
+          <div>Location: <strong style="color: var(--gold-light);">Kishorenagar, Angul Showroom</strong></div>
+        </div>
+
+        <div style="display: flex; gap: 10px;">
+          <button id="qvAddToCartBtn" class="btn-primary-gold" style="flex: 1; justify-content: center;">
+            <i class="fas fa-shopping-bag"></i> Add to Bag
+          </button>
+          <button id="qvWhatsAppBtn" class="whatsapp-cta-btn" style="flex: 1; justify-content: center;">
+            <i class="fab fa-whatsapp"></i> Buy on WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Online Checkout Modal -->
+  <div class="center-modal" id="checkoutModal">
+    <button class="modal-close-icon"><i class="fas fa-times"></i></button>
+    <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: #fff; margin-bottom: 6px;">
+      Order Confirmation
+    </h3>
+    <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 20px;">
+      Mahabir Jewellers • Main Road, Kishorenagar, Angul (Mob: 9938625057)
+    </p>
+
+    <div class="checkout-summary-box">
+      <div class="checkout-row">
+        <span>Cart Items Subtotal:</span>
+        <span id="checkoutSubtotal">₹0</span>
+      </div>
+      <div class="checkout-row" style="color: #4caf50;">
+        <span>Discount:</span>
+        <span id="checkoutDiscount">-₹0</span>
+      </div>
+      <div class="checkout-row">
+        <span>GST (3%):</span>
+        <span id="checkoutGst">₹0</span>
+      </div>
+      <div class="checkout-row total">
+        <span>Total Payable:</span>
+        <span id="checkoutTotal" style="color: var(--gold-light);">₹0</span>
+      </div>
+    </div>
+
+    <form id="checkoutForm">
+      <div class="form-group">
+        <label for="custName">Full Name</label>
+        <input type="text" id="custName" class="form-control" placeholder="e.g. Ramesh Chandra Nayak" required />
+      </div>
+
+      <div class="form-group">
+        <label for="custPhone">Mobile / WhatsApp Number</label>
+        <input type="tel" id="custPhone" class="form-control" placeholder="e.g. 9938625057" required />
+      </div>
+
+      <div class="form-group">
+        <label for="custAddress">Delivery Address / Village / Pincode</label>
+        <textarea id="custAddress" class="form-control" rows="2" placeholder="e.g. Near Market, Kishorenagar, Angul, 759126" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Select Payment / Fulfillment Mode</label>
+        <div class="payment-options">
+          <label class="payment-option-card">
+            <input type="radio" name="paymentMode" value="Store Pickup at Kishorenagar" checked />
+            <span>Store Pickup (Kishorenagar)</span>
+          </label>
+          <label class="payment-option-card">
+            <input type="radio" name="paymentMode" value="Cash on Delivery / Odisha Home Delivery" />
+            <span>Home Delivery (Angul/Odisha)</span>
+          </label>
+          <label class="payment-option-card">
+            <input type="radio" name="paymentMode" value="UPI / QR Code" />
+            <span>UPI Instant Pay</span>
+          </label>
+          <label class="payment-option-card">
+            <input type="radio" name="paymentMode" value="NEFT / Bank Transfer" />
+            <span>Bank Transfer</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- UPI QR Code Placeholder -->
+      <div class="upi-qr-box" id="upiQrBox">
+        <div class="upi-qr-code">
+          <i class="fas fa-qrcode" style="font-size: 5rem; color: #111;"></i>
+        </div>
+        <p style="font-size: 0.85rem; font-weight: 600;">Scan &amp; Pay to: 9938625057@upi</p>
+        <span style="font-size: 0.75rem; color: #666;">Mahabir Jewellers Kishorenagar</span>
+      </div>
+
+      <button type="submit" class="btn-primary-gold" style="width: 100%; justify-content: center; padding: 14px; font-size: 1rem;">
+        <i class="fab fa-whatsapp"></i> Confirm &amp; Send Order to Showroom
+      </button>
+    </form>
+  </div>
+
+  <!-- Appointment Consultation Modal -->
+  <div class="center-modal" id="appointmentModal">
+    <button class="modal-close-icon"><i class="fas fa-times"></i></button>
+    <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: #fff; margin-bottom: 6px;">
+      Book Jewellery Consultation
+    </h3>
+    <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 20px;">
+      Visit our Kishorenagar showroom or request a live video showing on WhatsApp (+91 9938625057).
+    </p>
+
+    <!-- Form reused via standard submit handler in app.js -->
+    <form onsubmit="event.preventDefault(); document.getElementById('appointmentForm').dispatchEvent(new Event('submit'));">
+      <p style="color: var(--gold-light); font-size: 0.9rem; margin-bottom: 16px;">
+        <i class="fas fa-store"></i> <strong>Mahabir Jewellers Showroom</strong><br />
+        Main Road, Kishorenagar, District Angul, Odisha
+      </p>
+      <div style="display: flex; gap: 12px;">
+        <a href="tel:9938625057" class="btn-primary-gold" style="flex: 1; justify-content: center;">
+          <i class="fas fa-phone-alt"></i> Call: 9938625057
+        </a>
+        <a href="https://wa.me/919938625057?text=Namaste%20Mahabir%20Jewellers,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="whatsapp-cta-btn" style="flex: 1; justify-content: center;">
+          <i class="fab fa-whatsapp"></i> WhatsApp Store
+        </a>
+      </div>
+    </form>
+  </div>
+
+  <!-- =========================================================================
+       MOBILE BOTTOM STICKY BAR
+       ========================================================================= -->
+  <div class="mobile-bottom-bar">
+    <a href="tel:9938625057" class="mobile-bar-item">
+      <i class="fas fa-phone-alt"></i>
+      <span>Call</span>
+    </a>
+    <a href="https://wa.me/919938625057?text=Namaste%20Mahabir%20Jewellers!" target="_blank" class="mobile-bar-item wa-item">
+      <i class="fab fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="#collections" class="mobile-bar-item">
+      <i class="fas fa-gem"></i>
+      <span>Designs</span>
+    </a>
+    <button id="mobileOpenCartBtn" class="mobile-bar-item" style="position: relative;">
+      <i class="fas fa-shopping-bag"></i>
+      <span class="badge-count" id="mobileCartCount" style="top: -6px; right: -4px;">0</span>
+      <span>Bag</span>
+    </button>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
