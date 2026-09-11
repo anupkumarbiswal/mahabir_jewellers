@@ -1,22 +1,16 @@
-/**
- * Mahabir Jewellers - Product Catalog & Store Configuration
- * Location: Kishorenagar, Angul, Odisha
- * Phone: +91 9938625057
- */
-
 const STORE_CONFIG = {
   name: "Mahabir Jewellers",
   tagline: "Heritage of Purity & Timeless Craftsmanship",
   address: "Main Market Road, Kishorenagar, District Angul, Odisha - 759126",
   phone: "+91 9938625057",
   whatsappNumber: "919938625057",
-  email: "mahabirjewellers.angul@gmail.com",
+  email: "sahooanil320@gmail.com",
   timing: "Mon - Sun: 9:30 AM to 8:30 PM",
   rates: {
-    gold24k: 7350, // per gram in INR
-    gold22k: 6740, // per gram in INR
-    gold18k: 5520, // per gram in INR
-    silver999: 89, // per gram in INR
+    gold24k: 15,125, // per gram in INR
+    gold22k: 14,405, // per gram in INR
+    gold18k: 11,786, // per gram in INR
+    silver999: 245, // per gram in INR
     lastUpdated: "Today, 10:00 AM IST"
   }
 };
